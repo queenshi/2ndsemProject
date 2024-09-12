@@ -1,0 +1,157 @@
+body{
+
+.contact{
+	position:absolute;
+	height:1000;
+	width:100%;
+	top:100px;
+}
+.image1{
+	width: 100%;
+	height: 920px;
+	background-size:cover;
+	position:absolute;
+	background-attachment: fixed;
+}
+.head1{
+	color: aliceblue;
+	font-size: 40px;
+	position: absolute;
+	font-weight: 900;
+	top: 190px;
+	left:60px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about1{
+	color: rgb(199, 208, 216);
+	font-size: 17px;
+	position: absolute;
+	font-weight: 500;
+	top: 255px;
+	left:63px;
+
+}
+.about2{
+	color: rgb(199, 208, 216);
+	font-size: 17px;
+	position: absolute;
+	font-weight: 500;
+	top: 290px;
+	left:63px;
+
+}
+.call{
+	font-size: 20px;
+	color: beige;
+	background-color: rgb(4, 194, 83);
+	position:relative;
+	top:303px;
+	left:60px;
+	padding: 4px;
+	padding-left: 60px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: none;
+	border-radius: 10px;
+	font-weight: 700;
+}
+.whatsapp{
+	font-size: 20px;
+	color: beige;
+	background-color: rgb(4, 194, 83);
+	position:absolute;
+	top:350px;
+	left:350px;
+	padding: 4px;
+	padding-left: 60px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: none;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.logo2{
+	position: absolute;
+	top: 350px;
+	width:4%;
+	height: 50px;
+	left:355px;
+}
+.logo1{
+	position: absolute;
+	top: 350px;
+	width:4%;
+	height: 50px;
+	left:70px;
+
+}
+
+footer {
+  background-color: #161414;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  top:900px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #21adc0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section .social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-section .social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  margin-top: 20px;
+  font-size: 14px;
+}
+}

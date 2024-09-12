@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Details</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="sec.js"></script>
+	<style type="text/css">
+		label {
+			font-size: 16px;
+		}
+
+		p.error {
+			color: red;
+			font-size: 12px;
+		}
+
+		.success {
+			color: green;
+			font-size: 20px;
+
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h2 class="text-danger" style="text-align: center;">Student Form</h2>
+		<div class="row border bg-light">
+			<form id="myform">
+				<h4 class="mt-3 success" id="submit" style="text-align:center;"></h4>
+				<div class="col-md-6 offset-3">
+					<div class="form-group mt-5">
+						<label>Student Name</label>
+						<input type="text" placeholder="Enter Student Name" class="form-control" id="sname">
+						<p id="sname_error" class="error"></p>
+					</div>
+					<div class="form-group mt-3">
+						<label>Roll Number</label>
+						<input type="text" placeholder="Enter Roll Number" class="form-control" id="roll_num">
+						<p id="roll_error" class="error"></p>
+					</div>
+					<div class="form-group mt-3">
+						<label>Contact Number</label>
+						<input type="text" placeholder="Enter Contact Number" class="form-control" id="contact">
+						<p id="contact_error" class="error"></p>
+					</div>
+					<div class="form-group mt-3">
+						<label>Email Id</label>
+						<input type="text" placeholder="Enter Email Id" class="form-control" id="email">
+						<p id="email_error" class="error"></p>
+					</div>
+					<div class="form-group mt-3">
+						<label>Department</label>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="check1" name="option1" value="cs">
+							<label class="form-check-label">CS</label>
+						</div>
+					</div>
+					<div class="form-group mt-5 mb-5">
+						<button type="submit" class="btn btn-success w-100">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<button type="button" class="btn btn-info btn-lg mt-6" id="append">Append data</button>
+		<p id="description">dhsuiiiiiiiiiiiiiiandcmacoqoidjqjwflqhsiojcasjkcqojdopa</p>
+	</div>
+	<ol id="ol">
+		<li>data items</li>
+	</ol>
+</body>
+
+</html>
